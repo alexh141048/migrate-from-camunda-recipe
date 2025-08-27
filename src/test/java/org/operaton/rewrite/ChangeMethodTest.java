@@ -124,7 +124,7 @@ class ChangeMethodTest implements RewriteTest {
         rewriteRun(java(
           """
             package org.operaton.rewrite;
-
+            
             import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
             import org.camunda.bpm.model.cmmn.impl.instance.camunda.CamundaVariableListenerImpl;
             import org.camunda.bpm.model.cmmn.instance.camunda.CamundaScript;
