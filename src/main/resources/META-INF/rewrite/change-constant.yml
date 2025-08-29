@@ -15,7 +15,7 @@
 
 ---
 type: specs.openrewrite.org/v1beta/recipe
-name: org.operaton.rewrite.ChangeConstants
+name: org.operaton.rewrite.ChangeConstant
 displayName: Replaces the usage of *Camunda* constants
 description: Replaces the usage of Camunda constants with equivalent operaton constants.
 recipeList:
